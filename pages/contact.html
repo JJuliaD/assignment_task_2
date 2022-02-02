@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+
+    <title>Julia Debono's Contact</title>
+  </head>
+  <body>
+    <!-- Header/Navbar -->
+    <div class="navbar nav__bg">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/aboutme.html">About Me</a></li>
+        <li><a href="/pages/skills.html">Skills</a></li>
+        <li><a href="/pages/works.html">Works</a></li>
+        <li><a href="/pages/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <!-- Contact Form -->
+    <div class="contact__container">
+      <div>
+      <h2>Give Feedback to Me 😁.</h2>
+      <!-- MailTo Function for using external app to mail -->
+      <form action="mailto:sixheitartari12@gmail.com" method="get" enctype="text/plain">
+        <div class="contact__inner">
+          <label for="name">Name:<br/>
+            <input type="text" name="name" id="name" />
+          </label>
+        </div>
+        <div>
+          <label for="email">Email: <br/>
+            <input type="text" name="email" id="email" />
+          </label>
+        </div>
+        <div>
+          <label>Comments:</label>
+          <br />
+          <textarea name="comments" rows="12" cols="35">Send something nice!</textarea>
+        </div>
+        <div>
+          <input type="submit" name="submit" value="Send" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
